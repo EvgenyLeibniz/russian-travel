@@ -1,0 +1,19 @@
+.footer__copyright {
+  justify-self: end;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 48px;
+    justify-self: start;
+    grid-column: 1;
+    grid-row: 6;
+  }
+}
