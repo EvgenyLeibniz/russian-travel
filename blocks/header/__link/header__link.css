@@ -10,7 +10,7 @@
 .header__link_en {
   text-decoration: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header__link {
     font-weight: normal;
     font-size: 18px;
