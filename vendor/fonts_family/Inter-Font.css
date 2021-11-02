@@ -18,8 +18,5 @@
   font-weight: 700;
   font-style: normal;
   src: url(../../InterWeb/Inter-Bold.woff2) format(woff2);
-  src: url(../../InterWeb/Inter-Bold.woff) format(woff2);
+  src: url(../../InterWeb/Inter-Bold.woff) format(woff);
 }
-
-/* Я провел эксперимент в devtools поставил в font-family только шрифт cursive, затем дописал к нему через заяптую шрифт "Inter",
-но до сих пор не уверен, что подключил именно то, что хотел.. */
