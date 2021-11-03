@@ -3,19 +3,19 @@
   margin: 92px auto 0;
   padding-bottom: 24px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .footer {
-    width: calc(1024px - 96px);
+    max-width: calc(1024px - 96px);
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .footer {
-    width: calc(768px - 48px);
+    max-width: calc(768px - 48px);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer {
-    width: calc(320px - 32px);
+    max-width: calc(320px - 32px);
     margin: 32px auto 0;
   }
 }

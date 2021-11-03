@@ -5,10 +5,8 @@
   font-weight: normal;
   text-decoration: none;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__link {
-    font-weight: normal;
     font-size: 18px;
     line-height: 20px;
   }

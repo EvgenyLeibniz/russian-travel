@@ -1,19 +1,17 @@
 .page {
   background: #2a2c2f;
-  background-size: screen;
   max-width: 1280px;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .page {
-    width: 100%;
+    max-width: 100%;
   }
 }
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .page {
     width: 100%;
   }
@@ -22,4 +20,4 @@
   .page {
     width: 100%;
   }
-}
+} */

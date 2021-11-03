@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__nav {
     grid-template-columns: 100%;
     grid-template-rows: auto;

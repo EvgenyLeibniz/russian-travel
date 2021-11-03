@@ -6,14 +6,14 @@
   font-size: 18px;
   line-height: 163%;
 }
-.place__paragraph:nth-child(2n) {
+.place__paragraph:nth-child(n + 2) {
   margin: 26px 0 0 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
   }
-  .place__paragraph:nth-child(2n) {
+  .place__paragraph:nth-child(n + 2) {
     margin: 25px 0 0 0;
   }
 }
